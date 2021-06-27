@@ -1,4 +1,4 @@
-# UCR Heart ML Interface    
+# UCI Heart ML Interface    
 This repository provides a  simple interface to visualising a csv dataset training
  an ensemble classifier, evaluating the results and applying the trained model.
  

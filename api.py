@@ -9,6 +9,7 @@ import numpy as np
 import os
 import copy
 
+
 class PredictRequest(BaseModel):
     """
     Class for requesting prediction
