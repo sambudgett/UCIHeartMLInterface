@@ -1,6 +1,10 @@
 # UCR Heart ML Interface    
-This repository provides a very simple interface to visualising a csv dataset training
- an ensemble classifier, evaluating the results and applying the trained model
+This repository provides a  simple interface to visualising a csv dataset training
+ an ensemble classifier, evaluating the results and applying the trained model.
+ 
+ It has been developed with the UCI Heart failure clinical records Data Set found here:
+ http://archive.ics.uci.edu/ml/datasets/Heart+Disease
+ 
  
  ## Quick Start Guide
  Install requirements from shell/command line using:
@@ -14,6 +18,8 @@ uvicorn api:app --reload
 ```
 
 Now open http://127.0.0.1:8000/docs in browser
+
+This Repository has been tested with Python 3.6, the required libraries are listed in requirements.txt
 
 ## API Interfaces
 The easiest way to explore the api is to go to 
@@ -85,7 +91,7 @@ Returns roc curve for evaluation if evaluation has been completed.
  
  ## ML architecture approach
 Building on the well established work on this small dataset such as in [1], this quick proof of concept work aims to 
-show that it is possible to train a large ensemble of simple machine learning classifiers on the e UCI Heart failure 
+show that it is possible to train a large ensemble of simple machine learning classifiers on the UCI Heart failure 
 clinical records Data Set. 
 
 Code from https://www.kaggle.com/andrewmvd/heart-failure-clinical-data/code inspired some of this work. In particular:
