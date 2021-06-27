@@ -1,0 +1,10 @@
+matplotlib
+numpy
+fastapi
+pydantic
+scikit-learn
+pandas
+seaborn
+uvicorn
+optuna
+aiofiles
